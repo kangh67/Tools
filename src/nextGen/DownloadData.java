@@ -385,7 +385,7 @@ public class DownloadData {
 				dir = file_dir + s[1] + "." + s[15];
 				try {
 					downloadAndSave(url, dir);
-					s[16] = "=HYPERLINK(\"./documents/" + s[1] + "." + s[15] + "\",\"" + s[1] + ".\" + s[15] + \"\")";					
+					s[16] = "=HYPERLINK(\"./documents/" + s[1] + "." + s[15] + "\",\"" + s[1] + "." + s[15] + "\")";					
 				}catch (MalformedURLException e) {  
 		            System.out.println("URL error - " + s[1]);  
 		            //e.printStackTrace();  
